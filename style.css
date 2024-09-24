@@ -1,0 +1,16 @@
+div {
+    border: 2px solid black;
+    width: 90%;
+    margin: 0 auto; /* Center the div horizontally */
+    display: flex; /* Flexbox to align items */
+    flex-wrap: wrap; /* Make sure images wrap to new lines */
+    justify-content: center; /* Center the images inside the div */
+}
+
+img {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 5px;
+    width: 96px; /* Set a fixed size for the images */
+    height: 96px; /* To make the layout more uniform */
+}
